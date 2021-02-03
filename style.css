@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80);
+
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+
+
+
+}
+.container{
+    width: 400px;
+    height: 500px;
+    color: rgb(177, 221, 238);
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px;
+    
+}
+h2{
+    margin: 0%;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(0, 255, 221);
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.container input[type=text], .container input[type=password], .container input[type=email]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 255, 221);
+    background-color:transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+  
+}
+.container input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: black;
+    font-style: italic;
+}
+.button{
+    outline: none;
+    border: none;
+    height: 30px;
+    margin: auto;
+    padding: 2px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(26, 86, 110);
+    cursor: pointer;
+
+}
+
+.container button[type=submit]{
+    color: rgb(0, 255, 221);
+
+}
+
+
+button:hover{
+    background-color: rgb(13, 73, 92);
+}
+
+.container button[type=submit]:hover{
+    color: rgb(124, 215, 231);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
